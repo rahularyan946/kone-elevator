@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: kone-elevator
+  host: kone-elevator
+  disk_quota: 1024M
+  services:
+  - kone-elevator-cloudantNoSQLDB
